@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <!--LINK PARA PEGAR O ESTILO CSS DOS SERVIDORES DO BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    .tm-social {
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand text-danger" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+      aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-danger" href="luffy.html">Luffy <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-danger" href="zoro.html">Zoro <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link text-danger" href="sanji.html">Sanji <span class="sr-only">(página atual)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-danger" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Redes sociais
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://pt-br.facebook.com/">Facebook</a>
+            <a class="dropdown-item" href="https://www.instagram.com/">Instagram</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="https://www.linkedin.com/">LinkedIn</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+        <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="https://www.xtrafondos.com/en/descargar.php?id=4015&resolucion=1280x720"
+          alt="Primeiro Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://criticalhits.com.br/wp-content/uploads/2019/08/Zoro-1.jpg"
+          alt="Segundo Slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://wallpaperaccess.com/full/3025166.jpg" alt="Terceiro Slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Próximo</span>
+    </a>
+  </div>
+
+  <!--Jumbotron-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Obrigado por acessar!</h1>
+      <p class="lead">Esta é uma página em homenagem ao triozão do One piece! (Sim, acho que etsou meio viciado rsrs).</p>
+    </div>
+  </div>
+
+  <!--Coluna de Cards-->
+  <div class="container">
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/56/41/90/5641906bfe421fbd2e60791d5a7563f3.png" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Procurado vivo ou morto?</h5>
+          <p class="card-text">Luffy do chapéu de palha tem causado muitos problemas no novo mundo!</p>
+        </div>
+      </div>
+      <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+          <p>Pensa em se juntar a marinha? Em breve as seleções estarão abertas! Venha Conosco!</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Sengoku <cite title="Título da fonte">Marinha</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://i.pinimg.com/originals/29/9e/56/299e562c004b95a51cf1d07128f2c2eb.jpg" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">Super Novas</h5>
+          <p class="card-text">Super novas surgiram há 2 anos, e ja estão dando dor de cabeça...</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>EU VOU SER O REI DOS PIRATAS!!!!.</p>
+          <footer class="blockquote-footer">
+            <small>
+              Luffy <cite title="Título da fonte">😜😜😜😜</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">Necessito de reparos no navio!</h5>
+          <p class="card-text">Estou buscando um mecanico de navios, pago bem!</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="https://portalpiece.files.wordpress.com/2014/02/e3c73-131450-zoro_lost_super.jpg" alt="Imagem do card">
+      </div>
+      <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+          <p>Como pode se perder tanto?? sério? até em linha reta??.</p>
+          <footer class="blockquote-footer">
+            <small class="text-muted">
+              Zoro... <cite title="Título da fonte">Alguém da um GPS para esse cidadão?</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Portegas D.Ace é filho do rei dos piratas??</h5>
+          <p class="card-text">Rumores indicam que pirata da tripulação do Barba Branca, é realmente filho do rei dos piratas!</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+        </div>
+      </div>
+    </div>
+
+    <!--Texto e Video-->
+    <div class="row mt-5 mb-5">
+      <div class="col-md-6">
+        <h3>Texto teste</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ullam deserunt ipsum magnam,
+          reiciendis quam odit modi quaerat officia vero rerum natus illo adipisci asperiores harum voluptatibus ad quod
+          obcaecati.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi earum pariatur laboriosam numquam doloremque,
+          vero quam eius saepe error fugit soluta quos nemo similique dolor consequuntur provident! Veritatis, maxime
+          dicta.</p>
+      </div>
+
+      <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6aQ_5jyamoU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!--Formulario de contato-->
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="text-center">
+          Entre em contato</h4>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+
+
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Endereço de email</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Selecione o Assunto</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Feedback</option>
+            <option>Reclamação</option>
+            <option>Sugestões</option>
+            <option>Apoio</option>
+            <option>Trabalhe Conosco</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Insira o texto</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <button class="btn btn-outline-success">Enviar</button>
+        </div>
+      </form>
+
+    </div>
+
+
+    <!--Rodapé-->
+    <hr>
+    <footer>
+      <div class="row mb-3">
+        <div class="col-md-12 d-flex justify-content-center">
+        
+        <footer>
+          <p class="justify-content-center">
+             Todos os direitos reservados para Escaler &copy;
+          </p>
+      </footer>
+    </div>
+    
+      <div class="container">
+          <a href="https://pt-br.facebook.com/" target="_blank" >
+             <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+             <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Instagram">
+          </a>
+         <a href="https://www.linkedin.com/home" target="_blank">
+             <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin">
+         </div>
+         </a>
+        
+
+          </div>
+    </footer>
+  </div>
+  </div>
+
+
+  <!--SCRIPTS NECESSARIOS PARA UTILIZAÇÃO DOS CÓDIGOS JAVASCRIPT DO BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
